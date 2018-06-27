@@ -3016,6 +3016,11 @@ svg {
 /*------------------------------------
   Custom Buttons
 ------------------------------------*/
+.u-btn-primary {
+  background: #000;
+  border-color: #000;
+}
+
 /* primary button :hover, :focus, :active effects */
 .u-btn-primary:hover, .u-btn-primary:focus, .u-btn-primary:active {
   box-shadow: 0 4px 17px rgba(55, 125, 255, 0.35);
@@ -6324,7 +6329,7 @@ svg {
   width: 0.9375rem;
   height: 0.9375rem;
   box-sizing: border-box;
-  background-color: #377dff;
+  background-color: #ffffff;
   border: 3px solid transparent;
   border-radius: 50%;
   -webkit-transform: scale(0.6);
@@ -6334,7 +6339,7 @@ svg {
 
 .u-slick__pagination li.slick-active span {
   background-color: transparent;
-  border-color: #377dff;
+  border-color: #ffffff;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
@@ -6398,6 +6403,23 @@ svg {
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+/*------------------------------------
+  Slick Pagination Logos
+------------------------------------*/
+.u-slick--pagination-logos {
+  max-width: 30rem;
+}
+
+.u-slick--pagination-logos .slick-slide {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+
+.u-slick--pagination-logos .slick-current {
+  opacity: 1;
 }
 
 /*------------------------------------
@@ -7220,6 +7242,9 @@ svg {
   }
   .u-space-2-top--md {
     padding-top: 4.0625rem;
+  }
+  .u-space-3-top--md {
+    padding-top: 8.125rem;
   }
   .u-space-5-top--md {
     padding-top: 15rem;
