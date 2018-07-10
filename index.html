@@ -31,7 +31,7 @@
   <!-- End Skippy -->
 
   <!-- ========== HEADER ========== -->
-  <header id="header" class="u-header u-header--abs-top-md u-header--bg-transparent u-header--show-hide-md"
+  <header id="header" class="u-header u-header--bg-transparent u-header--white-nav-links-md u-header--sub-menu-dark-bg-md u-header--abs-top mt-2"
           data-header-fix-moment="500"
           data-header-fix-effect="slide">
 
@@ -42,7 +42,8 @@
         <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
           <!-- Logo -->
           <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="#" aria-label="Brogan Search">
-            <img src="./assets/svg/logos/logo.svg" alt="Logo">
+            <img class="u-header__navbar-brand-default" src="./assets/img/logo-white.png" alt="Logo" style="width: 200px">
+            <img class="u-header__navbar-brand-on-scroll" src="./assets/img/logo-color.png" alt="Logo"  style="width: 200px">
           </a>
           <!-- End Logo -->
 
@@ -63,115 +64,21 @@
           <div id="navBar" class="collapse navbar-collapse py-0">
             <ul class="navbar-nav u-header__navbar-nav ml-lg-auto">
 
-              <!-- Contact - Link -->
+              <!--  Link -->
               <li class="nav-item">
-                <a class="nav-link u-header__nav-link" href="#">
-                  About
+                <a class="nav-link u-header__nav-link" href="#testimonials">
+                  Testimonials
                 </a>
               </li>
               <!-- End Contact - Link -->
 
-              <!-- Employers -->
-              <li class="nav-item hs-has-sub-menu u-header__nav-item"
-                  data-event="hover"
-                  data-animation-in="slideInUp"
-                  data-animation-out="fadeOut">
-                <a id="employersMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
-                   aria-haspopup="true"
-                   aria-expanded="false"
-                   aria-labelledby="employersSubMenu">
-                  Employers
-                  <span class="fa fa-angle-down u-header__nav-link-icon"></span>
+              <!--  Link -->
+              <li class="nav-item">
+                <a class="nav-link u-header__nav-link" href="#process">
+                  Our Process
                 </a>
-
-                <!-- Employers - Submenu -->
-                <ul id="employersSubMenu" class="list-inline hs-sub-menu u-header__sub-menu py-3 mb-0" style="min-width: 220px;"
-                    aria-labelledby="employersMegaMenu">
-                  <!-- About -->
-                  <li class="dropdown-item hs-has-sub-menu">
-                    <a id="navLinkEmployersAbout" class="nav-link u-header__sub-menu-nav-link u-list__link py-2" href="javascript:;"
-                       aria-haspopup="true"
-                       aria-expanded="false"
-                       aria-controls="navSubmenuEmployersAbout">
-                      Our Process
-                      <span class="fa fa-angle-right u-header__sub-menu-nav-link-icon"></span>
-                    </a>
-                  </li>
-                  <!-- About -->
-
-                  <!-- FAQ -->
-                  <li class="dropdown-item hs-has-sub-menu">
-                    <a id="navLinkEmployersFAQ" class="nav-link u-header__sub-menu-nav-link u-list__link py-2" href="javascript:;"
-                       aria-haspopup="true"
-                       aria-expanded="false"
-                       aria-controls="navSubmenuEmployersFAQ">
-                      FAQs
-                      <span class="fa fa-angle-right u-header__sub-menu-nav-link-icon"></span>
-                    </a>
-                  </li>
-                  <!-- FAQ -->
-
-                </ul>
-                <!-- End Employers - Submenu -->
               </li>
-              <!-- End Employers -->
-
-              <!-- Job Seekers -->
-              <li class="nav-item hs-has-sub-menu u-header__nav-item"
-                  data-event="hover"
-                  data-animation-in="slideInUp"
-                  data-animation-out="fadeOut">
-                <a id="employersMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
-                   aria-haspopup="true"
-                   aria-expanded="false"
-                   aria-labelledby="employersSubMenu">
-                  Job Seekers
-                  <span class="fa fa-angle-down u-header__nav-link-icon"></span>
-                </a>
-
-                <!-- Employers - Submenu -->
-                <ul id="employersSubMenu" class="list-inline hs-sub-menu u-header__sub-menu py-3 mb-0" style="min-width: 220px;"
-                    aria-labelledby="employersMegaMenu">
-                  <!-- Jobs -->
-                  <li class="dropdown-item hs-has-sub-menu">
-                    <a id="navLinkEmployersAbout" class="nav-link u-header__sub-menu-nav-link u-list__link py-2" href="javascript:;"
-                       aria-haspopup="true"
-                       aria-expanded="false"
-                       aria-controls="navSubmenuEmployersAbout">
-                      View Open Jobs
-                      <span class="fa fa-angle-right u-header__sub-menu-nav-link-icon"></span>
-                    </a>
-                  </li>
-                  <!-- Jobs -->
-
-                  <!-- Jobs -->
-                  <li class="dropdown-item hs-has-sub-menu">
-                    <a id="navLinkEmployersAbout" class="nav-link u-header__sub-menu-nav-link u-list__link py-2" href="javascript:;"
-                       aria-haspopup="true"
-                       aria-expanded="false"
-                       aria-controls="navSubmenuEmployersAbout">
-                      Executive Services
-                      <span class="fa fa-angle-right u-header__sub-menu-nav-link-icon"></span>
-                    </a>
-                  </li>
-                  <!-- Jobs -->
-
-                  <!-- FAQ -->
-                  <li class="dropdown-item hs-has-sub-menu">
-                    <a id="navLinkEmployersFAQ" class="nav-link u-header__sub-menu-nav-link u-list__link py-2" href="javascript:;"
-                       aria-haspopup="true"
-                       aria-expanded="false"
-                       aria-controls="navSubmenuEmployersFAQ">
-                      FAQs
-                      <span class="fa fa-angle-right u-header__sub-menu-nav-link-icon"></span>
-                    </a>
-                  </li>
-                  <!-- FAQ -->
-
-                </ul>
-                <!-- End Job Seekers - Submenu -->
-              </li>
-              <!-- End Job Seekers -->
+              <!-- End Contact - Link -->
 
               <!-- Button -->
               <li class="nav-item d-none d-md-inline-block pl-3 pr-0">
@@ -193,22 +100,18 @@
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Hero Section -->
-    <div class="d-flex align-items-center position-relative u-space-0--lg min-height-50vh--lg">
+    <div class="d-flex align-items-center position-relative u-space-0--lg min-height-100vh--lg" style="background: url(./assets/img/backgrounds/reflected-gradient.png) center center; background-size: cover;">
       <div class="container u-space-3 position-relative z-index-2">
         <div class="row">
-          <div class="col-lg-6 u-space-2-top--md">
+          <div class="col-lg-6 u-space-1-top--md">
                 <div class="g-mb-32">
-                  <h1 class="display-5 font-size-48--md-down mb-3">Recruiting done right.</h1>
-                  <p>
+                  <h1 class="display-3 font-size-48--md-down mb-3 text-white" style="font-weight: bold">Recruiting done right.</h1>
+                  <p class="text-white">
                     Find your next  
-                    <span class="text-primary">
+                    <span class="text-white">
                       <strong class="u-text-animation u-text-animation--typing"></strong>
                     </span>
                   </p>
-                </div>
-
-                <div class="d-flex align-items-center">
-                  <a class="btn u-btn-primary--air u-btn-wide transition-3d-hover" href="">Find out more</a>
                 </div>
               </div>
 
@@ -221,9 +124,12 @@
     <!-- End Hero Section -->
 
     <!-- Title -->
-    <div class="w-md-80 w-lg-50 text-center mx-auto mb-9">
-        <h3 class="font-weight-medium">We Build Great Companies</h3>
-        <p>Here's what our clients have to say...</p>
+    <div class="container u-space-2">
+    <a id="testimonials"></a>
+    <div class="w-md-80 w-lg-50 text-center mx-auto">
+        <h1 class="font-weight-medium">We Build Great Companies</h1>
+        <p>Here's what a few of our happy clients have to say...</p>
+    </div>
     </div>
     <!-- End Title -->
 
@@ -320,409 +226,7 @@
                   <!-- End Testimonial -->
               </div>
             </div>
-          </div>
-
-          <div class="js-slide">
-            <div class="row">
-              <div class="col-md-6 col-lg-6 col-xl-5 u-space-2">
-                <div class="bg-white rounded shadow-sm p-7">
-                  <article>
-                    <div class="mb-5">
-                      <img class="img-fluid w-60 rounded" src="./assets/svg/clients-logo/freewheel.jpg" alt="FreeWheel">
-                    </div>
-                    <!-- List -->
-                    <ul class="list-unstyled">
-                      <li class="media mb-1">
-                        <div class="d-flex w-40 w-sm-30">
-                          <h3 class="h6">Client</h3>
-                        </div>
-                        <div class="media-body">
-                          <small class="text-muted">
-                            FreeWheel
-                          </small>
-                        </div>
-                      </li>
-            
-                      <li class="media mb-1">
-                        <div class="d-flex w-40 w-sm-30">
-                          <h3 class="h6">Areas</h3>
-                        </div>
-                        <div class="media-body">
-                          <small class="text-muted mb-1">
-                            <span class="badge badge-secondary">Human Resources</span> <span class="badge badge-secondary">Technology</span> <span class="badge badge-secondary">Sales &amp; Operations</span> <span class="badge badge-secondary">Product</span>
-                          </small>
-                        </div>
-                      </li>
-                      
-                      <!-- List -->
-                      <li class="media">
-                        <div class="d-flex w-40 w-sm-30">
-                          <h4 class="h6">Hired</h4>
-                        </div>
-                        <div class="media-body">
-                          <small class="d-block text-muted mb-1">
-                            VP, Demand Sales
-                          </small>
-                          <small class="d-block text-muted mb-1">
-                            VP of DSP Partnerships and Account Management 
-                          </small>
-                          <small class="d-block text-muted mb-1">
-                            SVP of Engineering 
-                          </small>
-                          <small class="d-block text-muted">
-                            SVP Advisory Services 
-                          </small>
-                          <small class="d-block text-muted">
-                            VP Product Engineering 
-                          </small>
-                          <small class="d-block text-muted">
-                            VP Product Marketing 
-                          </small>
-                          <small class="d-block text-muted">
-                            VP of Brand Marketing
-                          </small>
-                        </div>
-                      </li>
-                    </ul>
-                    <!-- End List -->
-                  </article>
-                </div>
-              </div>
-              <div class="col-md-7 u-space-2">
-                <!-- Testimonial -->
-                <div class="bg-white shadow-sm rounded p-6 mb-4">
-                    <figure class="mb-4" style="width: 35px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                           viewBox="0 0 8 8" style="enable-background:new 0 0 0 0;" xml:space="preserve">
-                          <path class="u-fill-primary" d="M3,1.3C2,1.7,1.2,2.7,1.2,3.6c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5
-                            C1.4,6.9,1,6.6,0.7,6.1C0.4,5.6,0.3,4.9,0.3,4.5c0-1.6,0.8-2.9,2.5-3.7L3,1.3z M7.1,1.3c-1,0.4-1.8,1.4-1.8,2.3
-                            c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5c-0.7,0-1.1-0.3-1.4-0.8
-                            C4.4,5.6,4.4,4.9,4.4,4.5c0-1.6,0.8-2.9,2.5-3.7L7.1,1.3z"/>
-                        </svg>
-                    </figure>
-                    <p>Highly endorsed by our SVP of HR, I partnered with Ryan on VP level searches and I was very engaged with our collaboration on all fronts. Ryan led both tracks with a high command of the industry (&amp; talent) landscape, the approach needed, and a steady, unwavering hand from end to end. We were notably pleased with both outcomes and I highly recommend Ryan for your next, critical, executive level, search.</p>
-                    <div class="media align-items-center">
-                      <div class="d-flex mr-3">
-                        <img class="u-md-avatar rounded-circle" src="./assets/img/people/Jack-Rotherham.jpg" alt="Image    Description">
-                      </div>
-                      <div class="media-body">
-                        <h4 class="h6 mb-0">Jack Rotherham</h4>
-                        <p class="small">Chief Marketing Officer, GM-Advertising | Media, Entertainment &amp; Technology</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End Testimonial -->
-              </div>
-            </div>
-          </div>
-
-          <div class="js-slide">
-            <div class="row">
-              <div class="col-md-6 col-lg-6 col-xl-5 u-space-2">
-                <div class="bg-white rounded shadow-sm p-7">
-                  <article>
-                    <div class="mb-5">
-                      <img class="img-fluid w-60 rounded" src="./assets/svg/clients-logo/felix-gray.png" alt="Felix Gray">
-                    </div>
-                    <!-- List -->
-                    <ul class="list-unstyled">
-                      <li class="media mb-1">
-                        <div class="d-flex w-40 w-sm-30">
-                          <h3 class="h6">Client</h3>
-                        </div>
-                        <div class="media-body">
-                          <small class="text-muted">
-                            Felix Gray
-                          </small>
-                        </div>
-                      </li>
-            
-                      <li class="media mb-1">
-                        <div class="d-flex w-40 w-sm-30">
-                          <h3 class="h6">Areas</h3>
-                        </div>
-                        <div class="media-body">
-                          <small class="text-muted">
-                            <span class="badge badge-secondary">Product</span>
-                          </small>
-                        </div>
-                      </li>
-                      
-                      <!-- List -->
-                      <li class="media">
-                        <div class="d-flex w-40 w-sm-30">
-                          <h4 class="h6">Hired</h4>
-                        </div>
-                        <div class="media-body">
-                          <small class="text-muted">
-                            Creative Director
-                          </small>
-                        </div>
-                      </li>
-                    </ul>
-                    <!-- End List -->
-                  </article>
-                </div>
-              </div>
-              <div class="col-md-7 u-space-2">
-                <!-- Testimonial -->
-                <div class="bg-white shadow-sm rounded p-6 mb-4">
-                    <figure class="mb-4" style="width: 35px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                           viewBox="0 0 8 8" style="enable-background:new 0 0 0 0;" xml:space="preserve">
-                          <path class="u-fill-primary" d="M3,1.3C2,1.7,1.2,2.7,1.2,3.6c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5
-                            C1.4,6.9,1,6.6,0.7,6.1C0.4,5.6,0.3,4.9,0.3,4.5c0-1.6,0.8-2.9,2.5-3.7L3,1.3z M7.1,1.3c-1,0.4-1.8,1.4-1.8,2.3
-                            c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5c-0.7,0-1.1-0.3-1.4-0.8
-                            C4.4,5.6,4.4,4.9,4.4,4.5c0-1.6,0.8-2.9,2.5-3.7L7.1,1.3z"/>
-                        </svg>
-                    </figure>
-                    <p>We had a critical need for a Creative Director. The team successfully secured a great hire for us in 3 weeks. They add tremendous value as an extension of our company and are able to recruit the best candidates in the market with a system that really works.</p>
-                    <div class="media align-items-center">
-                        <div class="d-flex mr-3">
-                          <img class="u-md-avatar rounded-circle" src="./assets/img/people/Miguel-McKelvey.jpg" alt="Image    Description">
-                        </div>
-                        <div class="media-body">
-                          <h4 class="h6 mb-0">Miguel McKelvey</h4>
-                          <p class="small">CoFounder, WeWork</p>
-                        </div>
-                      </div>
-                  </div>
-                  <!-- End Testimonial -->
-              </div>
-            </div>
-          </div>
-          
-          <div class="js-slide">
-            <div class="row">
-              <div class="col-md-6 col-lg-6 col-xl-5 u-space-2">
-                <div class="bg-white rounded shadow-sm p-7">
-                  <article>
-                    <div class="mb-5">
-                      <img class="img-fluid w-40 rounded" src="./assets/svg/clients-logo/4c-insights.png" alt="Felix Gray">
-                    </div>
-                    <!-- List -->
-                    <ul class="list-unstyled">
-                      <li class="media mb-1">
-                        <div class="d-flex w-40 w-sm-30">
-                          <h3 class="h6">Client</h3>
-                        </div>
-                        <div class="media-body">
-                          <small class="text-muted">
-                            4C Insights
-                          </small>
-                        </div>
-                      </li>
-            
-                      <li class="media mb-1">
-                        <div class="d-flex w-40 w-sm-30">
-                          <h3 class="h6">Areas</h3>
-                        </div>
-                        <div class="media-body">
-                          <small class="text-muted">
-                            <span class="badge badge-secondary">Technology</span>
-                          </small>
-                        </div>
-                      </li>
-                      
-                      <!-- List -->
-                      <li class="media">
-                        <div class="d-flex w-40 w-sm-30">
-                          <h4 class="h6">Hired</h4>
-                        </div>
-                        <div class="media-body">
-                          <small class="text-muted">
-                              CTO
-                          </small>
-                        </div>
-                      </li>
-                    </ul>
-                    <!-- End List -->
-                  </article>
-                </div>
-              </div>
-              <div class="col-md-7 u-space-2">
-                <!-- Testimonial -->
-                <div class="bg-white shadow-sm rounded p-6 mb-4">
-                    <figure class="mb-4" style="width: 35px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                           viewBox="0 0 8 8" style="enable-background:new 0 0 0 0;" xml:space="preserve">
-                          <path class="u-fill-primary" d="M3,1.3C2,1.7,1.2,2.7,1.2,3.6c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5
-                            C1.4,6.9,1,6.6,0.7,6.1C0.4,5.6,0.3,4.9,0.3,4.5c0-1.6,0.8-2.9,2.5-3.7L3,1.3z M7.1,1.3c-1,0.4-1.8,1.4-1.8,2.3
-                            c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5c-0.7,0-1.1-0.3-1.4-0.8
-                            C4.4,5.6,4.4,4.9,4.4,4.5c0-1.6,0.8-2.9,2.5-3.7L7.1,1.3z"/>
-                        </svg>
-                    </figure>
-                    <p>We had a very tall order. Not only did they deliver an amazing hire in 2 weeks–it was over Thanksgiving Holiday. They saved us months of time and presented a hire that is truly transformational to our org and has been so from day one. This team knows the New York market better than any firm we’ve worked with.</p>
-                    <div class="media align-items-center">
-                        <div class="d-flex mr-3">
-                          <img class="u-md-avatar rounded-circle" src="./assets/img/people/Lance-Neuhauser.jpg" alt="Lance Neuhauser">
-                        </div>
-                        <div class="media-body">
-                          <h4 class="h6 mb-0">Launce Neuhauser</h4>
-                          <p class="small">CEO, 4C Insights</p>
-                        </div>
-                      </div>
-                  </div>
-                  <!-- End Testimonial -->
-              </div>
-            </div>
-          </div>
-
-          <div class="js-slide">
-              <div class="row">
-                <div class="col-md-6 col-lg-6 col-xl-5 u-space-2">
-                  <div class="bg-white rounded shadow-sm p-7">
-                    <article>
-                      <div class="mb-5">
-                        <img class="img-fluid w-40 rounded" src="./assets/svg/clients-logo/ladders.png" alt="The Ladders">
-                      </div>
-                      <!-- List -->
-                      <ul class="list-unstyled">
-                        <li class="media mb-1">
-                          <div class="d-flex w-40 w-sm-30">
-                            <h3 class="h6">Client</h3>
-                          </div>
-                          <div class="media-body">
-                            <small class="text-muted">
-                              TheLadders
-                            </small>
-                          </div>
-                        </li>
-              
-                        <li class="media mb-1">
-                          <div class="d-flex w-40 w-sm-30">
-                            <h3 class="h6">Areas</h3>
-                          </div>
-                          <div class="media-body">
-                            <small class="text-muted">
-                              <span class="badge badge-secondary">Creative</span>
-                            </small>
-                          </div>
-                        </li>
-                        
-                        <!-- List -->
-                        <li class="media">
-                          <div class="d-flex w-40 w-sm-30">
-                            <h4 class="h6">Hired</h4>
-                          </div>
-                          <div class="media-body">
-                            <small class="text-muted">
-                              Senior Art Director
-                            </small>
-                            <small class="text-muted">
-                              Lead Interaction Designer
-                            </small>
-                          </div>
-                        </li>
-                      </ul>
-                      <!-- End List -->
-                    </article>
-                  </div>
-                </div>
-                <div class="col-md-7 u-space-2">
-                  <!-- Testimonial -->
-                  <div class="bg-white shadow-sm rounded p-6 mb-4">
-                      <figure class="mb-4" style="width: 35px;">
-                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                             viewBox="0 0 8 8" style="enable-background:new 0 0 0 0;" xml:space="preserve">
-                            <path class="u-fill-primary" d="M3,1.3C2,1.7,1.2,2.7,1.2,3.6c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5
-                              C1.4,6.9,1,6.6,0.7,6.1C0.4,5.6,0.3,4.9,0.3,4.5c0-1.6,0.8-2.9,2.5-3.7L3,1.3z M7.1,1.3c-1,0.4-1.8,1.4-1.8,2.3
-                              c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5c-0.7,0-1.1-0.3-1.4-0.8
-                              C4.4,5.6,4.4,4.9,4.4,4.5c0-1.6,0.8-2.9,2.5-3.7L7.1,1.3z"/>
-                          </svg>
-                      </figure>
-                      <p>We retained Ryan to help us secure several creative roles for our product, creative and tech teams. The three most recent searches were for two Senior Art Directors on our Product/UX team, and a Lead Interaction Designer. Ryan moved quickly and identified some heavy hitters for us which have changed the game for our product team and resulted in a great new app as well. The team is easy to work with, and they make the process of screening, coordinating, and ultimately extending offers and scheduling start dates a breeze.</p>
-                      <div class="media align-items-center">
-                          <div class="d-flex mr-3">
-                            <img class="u-md-avatar rounded-circle" src="./assets/img/people/Michelle-Zassenhaus.png" alt="Michelle Zassenhaus">
-                          </div>
-                          <div class="media-body">
-                            <h4 class="h6 mb-0">Michelle Zassenhaus</h4>
-                            <p class="small">Creative Director, TheLadders</p>
-                          </div>
-                        </div>
-                    </div>
-                    <!-- End Testimonial -->
-                </div>
-              </div>
-          </div>
-
-          <div class="js-slide">
-              <div class="row">
-                <div class="col-md-6 col-lg-6 col-xl-5 u-space-2">
-                  <div class="bg-white rounded shadow-sm p-7">
-                    <article>
-                      <div class="mb-5">
-                        <img class="img-fluid w-40 rounded" src="./assets/svg/clients-logo/voxy.jpg" alt="VOXY">
-                      </div>
-                      <!-- List -->
-                      <ul class="list-unstyled">
-                        <li class="media mb-1">
-                          <div class="d-flex w-40 w-sm-30">
-                            <h3 class="h6">Client</h3>
-                          </div>
-                          <div class="media-body">
-                            <small class="text-muted">
-                              VOXY
-                            </small>
-                          </div>
-                        </li>
-              
-                        <li class="media mb-1">
-                          <div class="d-flex w-40 w-sm-30">
-                            <h3 class="h6">Areas</h3>
-                          </div>
-                          <div class="media-body">
-                            <small class="text-muted">
-                              <span class="badge badge-secondary">Marketing</span>
-                            </small>
-                          </div>
-                        </li>
-                        
-                        <!-- List -->
-                        <li class="media">
-                          <div class="d-flex w-40 w-sm-30">
-                            <h4 class="h6">Hired</h4>
-                          </div>
-                          <div class="media-body">
-                            <small class="text-muted">
-                              Director of Online Marketing
-                            </small>
-                          </div>
-                        </li>
-                      </ul>
-                      <!-- End List -->
-                    </article>
-                  </div>
-                </div>
-                <div class="col-md-7 u-space-2">
-                  <!-- Testimonial -->
-                  <div class="bg-white shadow-sm rounded p-6 mb-4">
-                      <figure class="mb-4" style="width: 35px;">
-                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                             viewBox="0 0 8 8" style="enable-background:new 0 0 0 0;" xml:space="preserve">
-                            <path class="u-fill-primary" d="M3,1.3C2,1.7,1.2,2.7,1.2,3.6c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5
-                              C1.4,6.9,1,6.6,0.7,6.1C0.4,5.6,0.3,4.9,0.3,4.5c0-1.6,0.8-2.9,2.5-3.7L3,1.3z M7.1,1.3c-1,0.4-1.8,1.4-1.8,2.3
-                              c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5c-0.7,0-1.1-0.3-1.4-0.8
-                              C4.4,5.6,4.4,4.9,4.4,4.5c0-1.6,0.8-2.9,2.5-3.7L7.1,1.3z"/>
-                          </svg>
-                      </figure>
-                      <p>We retained Brogan to secure a Director of Online Marketing for Voxy. This was a challenging and transformational hire for our team involving International experience and subject matter expertise. The team were not only successful, but found a candidate living abroad with the exact profile we were looking for who would relocate for the opportunity to join our team. The return on investment has been incredible and we’ll definitely use them as our secret weapon on hard to find talent in the future.</p>
-                      <div class="media align-items-center">
-                          <div class="d-flex mr-3">
-                            <img class="u-md-avatar rounded-circle" src="./assets/img/people/Gregg-Carey.jpg" alt="Gregg Carey">
-                          </div>
-                          <div class="media-body">
-                            <h4 class="h6 mb-0">Gregg Carey</h4>
-                            <p class="small">Cofounder, VOXY</p>
-                          </div>
-                        </div>
-                    </div>
-                    <!-- End Testimonial -->
-                </div>
-              </div>
-          </div>
-          
+          </div>          
         </div>
       </div>
     </div>
@@ -740,331 +244,491 @@
              data-load-more-action="auto"
              data-load-items-amount="2"
              data-media-queries='[
-              {"width": 1500, "cols": 5},
-              {"width": 1100, "cols": 5},
-              {"width": 800, "cols": 4},
+              {"width": 1500, "cols": 3},
+              {"width": 1100, "cols": 3},
+              {"width": 800, "cols": 2},
               {"width": 480, "cols": 2},
               {"width": 300, "cols": 1}
             ]'>
-          <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/shazam.png" alt="Shazam">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">Shazam</h4>
-                    <p class="small u-text-light mb-0">
-                      Director, Creative Technology
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
 
           <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/thrive-global.jpg" alt="THRIVE Global">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">THRIVE Global</h4>
-                    <p class="small u-text-light mb-0">
-                        Predator Team (Producer, Photographer, Editorial hybrid team)
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/canvs.png" alt="canvs">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">canvs</h4>
-                    <p class="small u-text-light mb-0">
-                        Head of HR / Senior Account Executive
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/prodigynetwork.png" alt="Prodigy Network">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">Prodigy Network</h4>
-                    <p class="small u-text-light mb-0">
-                        VP of Finance
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/alloy-media-marketing.jpg" alt="Alloy Media">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">Alloy Media</h4>
-                    <p class="small u-text-light mb-0">
-                        Sr. Director of Sales / Senior Account Executive
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/medidata.png" alt="Metidata">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">Medidata</h4>
-                    <p class="small u-text-light mb-0">
-                        Head of Mobile Engineering / SVP Service Delivery
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
                 <img src="./assets/svg/clients-logo/bombas.jpg" alt="Bombas">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">Bombas</h4>
-                    <p class="small u-text-light mb-0">
-                        Chief Marketing Officer / Head of People
-                    </p>
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Chief Marketing Officer</span>
+                  </small>
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Head of People</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                    Ryan is an incredibly well-connected headhunter.  We’ve worked with him at Bombas on key leadership searches and I’ve referred him, with great success, to my network of entrepreneurs to help them build out successful teams.  He has a unique process that brings everyone to the table to make the best hire and he has entrepreneurial experience that helps him understand the dynamics of high growth startups where culture fit is as important as position qualifications.  He’s disciplined and process driven but flexible to adapt to ever-changing needs and always delivers a diverse slate of diverse candidates.
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/david-heath.jpg" alt="David Heath">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">David Heath</h2>
+                    <p class="small mb-0">CEO, BOMBAS</p>
                   </div>
                 </div>
-              </div>
-            </a>
+            </div>
           </div>
           <!-- End Item -->
 
           <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/light-reaction.svg" alt="Light Reaction">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">Light Rection</h4>
-                    <p class="small u-text-light mb-0">
-                        CEO
-                    </p>
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/xaxis.png" alt="Xaxis">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Global CTO</span>
+                  </small>
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">SVP Product Supply</span>
+                  </small>
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">SVP Product Demand</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  I was lucky to be introduced to Ryan during a pivotal time in the development of our global Product &amp; Engineering organization while I was with Xaxis. Ryan listened to the needs of our organization to deliver real-time market data and the right executive talent. Ryan was a true partner with excellent client management. Ryan delivers and is just great to work with!
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/sacha-seraydarian.jpg" alt="Sacha Seraydarian">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">Sacha Seraydarian</h2>
+                    <p class="small mb-0">Inclusive-People First Talent Acquisition Leader</p>
                   </div>
                 </div>
-              </div>
-            </a>
+            </div>
           </div>
           <!-- End Item -->
 
           <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/xaxis.png" alt="xaxis">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">xasis</h4>
-                    <p class="small u-text-light mb-0">
-                        Global CTO / SVP Product Supply / SVP Product Demand / SVP Product Media
-                    </p>
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/true-fit.png" alt="TrueFit">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Head of User Experience</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  We came to Brogan with a tall-order to find someone to lead UX Research &amp; Design for an award winning product that is being adopted by the world’s leading retailers. Ryan Brogan delivered a slate of candidates from a great list of target companies that were that were relevant to our consumers, our industry, and that were candidates doing exciting things with UX at their respective companies. We made a hire quickly and successfully. Search professionals who can effectively conduct a search like this are few and far between and we’ll definitely be bringing new challenges their way in the future. We’re seeing the business impact of this hire paying off in spades.
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/romney-evans.jpg" alt="Romney Evans">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">Romney Evans</h2>
+                    <p class="small mb-0">CEO, TruFit</p>
                   </div>
                 </div>
-              </div>
-            </a>
+            </div>
           </div>
           <!-- End Item -->
 
           <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/epix.png" alt="Epix">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">EpixHD</h4>
-                    <p class="small u-text-light mb-0">
-                        SVP, Platform and Product
-                    </p>
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/freewheel.png" alt="FreeWheel">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">VP, Demand Sales</span>
+                    <span class="badge badge-secondary">VP of DSP Partnerships and Account Management </span>
+                    <span class="badge badge-secondary">SVP of Engineering</span>
+                    <span class="badge badge-secondary">SVP Advisory Services</span>
+                    <span class="badge badge-secondary">VP Product Engineering</span>
+                    <span class="badge badge-secondary">VP Product Marketing</span>
+                    <span class="badge badge-secondary">VP of Brand Marketing</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  Highly endorsed by our SVP of HR, I partnered with Ryan on VP level searches and I was very engaged with our collaboration on all fronts. Ryan led both tracks with a high command of the industry (&amp; talent) landscape, the approach needed, and a steady, unwavering hand from end to end. We were notably pleased with both outcomes and I highly recommend Ryan for your next, critical, executive level, search.
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/jack-rotherham.jpg" alt="Jack Rotherham">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">Jack Rotherham</h2>
+                    <p class="small mb-0">Chief Marketing Officer | GM-Advertising | Media, Entertainment &amp; Technology</p>
                   </div>
                 </div>
-              </div>
-            </a>
+            </div>
           </div>
           <!-- End Item -->
 
           <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/shazam.png" alt="Shazam">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">Shazam</h4>
-                    <p class="small u-text-light mb-0">
-                        Director, Creative Technology
-                    </p>
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/felix-gray.png" alt="Felix Gray">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Creative Director</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  We had a critical need for a Creative Director. The team successfully secured a great hire for us in 3 weeks. They add tremendous value as an extension of our company and are able to recruit the best candidates in the market with a system that really works.
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/david-roger.jpg" alt="David Roger">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">David Roger</h2>
+                    <p class="small mb-0">CEO, Felix Gray</p>
                   </div>
                 </div>
-              </div>
-            </a>
+            </div>
           </div>
           <!-- End Item -->
 
           <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/pledge-music.png" alt="Pledge Music">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">Pledge Music</h4>
-                    <p class="small u-text-light mb-0">
-                        VP Product
-                    </p>
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/4c-insights.png" alt="4CInsights">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">CTO</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  We had a very tall order. Not only did they deliver an amazing hire in 2 weeks–it was over Thanksgiving Holiday.  They saved us months of time and presented a hire that is truly transformational to our org and has been so from day one.  This team knows the New York market better than any firm we’ve worked with.
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/Lance-Neuhauser.jpg" alt="Lance Neuhauser">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">Lance Neuhauser</h2>
+                    <p class="small mb-0">CEO, 4CInsights</p>
                   </div>
                 </div>
-              </div>
-            </a>
+            </div>
           </div>
           <!-- End Item -->
 
           <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/aol.png" alt="AOL">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">AOL</h4>
-                    <p class="small u-text-light mb-0">
-                        Head of Video
-                    </p>
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/epix.png" alt="EpixHD">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">SVP, Platform and Product</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  In addition to Ryan’s deep business knowledge and vast connections, I value and admire his commitment to his work and delivering the very best solution for his clients. He is a true partner.
+He was able to refine the candidate pool as we further defined our requirement. Through to completion, the team executed reference checks and professionally completed the process. I’d recommend Ryan to anyone and will engage him on future searches with full confidence that he’ll make a killer placement.
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/renee-balducci.jpg" alt="Renee Balducci">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">Renee Balducci</h2>
+                    <p class="small mb-0">Vice President, Human Resources - NBCU</p>
                   </div>
                 </div>
-              </div>
-            </a>
+            </div>
           </div>
           <!-- End Item -->
 
           <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/true-fit.png" alt="True Fit">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">True Fit</h4>
-                    <p class="small u-text-light mb-0">
-                        Head of User Experience
-                    </p>
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/voxy.jpg" alt="EpixHD">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Director of Online Marketing</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  We retained Brogan to secure a Director of Online Marketing for Voxy. This was a challenging and transformational hire for our team involving International experience and subject matter expertise. The team were not only successful, but found a candidate living abroad with the exact profile we were looking for who would relocate for the opportunity to join our team. The return on investment has been incredible and we’ll definitely use them as our secret weapon on hard to find talent in the future.
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/gregg-carey.jpg" alt="Gregg Carey">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">Gregg Carey</h2>
+                    <p class="small mb-0">CoFounder, VOXY</p>
                   </div>
                 </div>
-              </div>
-            </a>
+            </div>
           </div>
           <!-- End Item -->
 
           <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/aol.png" alt="EpixHD">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Head of Video</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  Ryan sought me out as the perfect candidate for the top position in content at AOL. Ryan walked me through the extensive hiring process making sure both sides stayed engaged and consulted me on closing the best deal. Ryan is very connected at the highest level and has the vision to connect power players and visionaries!
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/AmberJLawson.jpg" alt="Amber Lawson">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">Amber Lawson</h2>
+                    <p class="small mb-0">Recruited by Brogan Search</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/ladders.png" alt="Ladders">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Senior Art Director</span>
+                  </small>
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Lead Interaction Designer</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  We retained Ryan to help us secure several creative roles for our product, creative and tech teams. The three most recent searches were for two Senior Art Directors on our Product/UX team, and a Lead Interaction Designer. Ryan moved quickly and identified some heavy hitters for us which have changed the game for our product team and resulted in a great new app as well. The team is easy to work with, and they make the process of screening, coordinating, and ultimately extending offers and scheduling start dates a breeze.
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/Michelle-Zassenhaus.png" alt="Michelle Zassenhaus">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">Michelle Zassenhaus</h2>
+                    <p class="small mb-0">Creative Director, TheLadders</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
                 <img src="./assets/svg/clients-logo/mighty-bright.png" alt="Mighty Bright">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">Mighty Bright</h4>
-                    <p class="small u-text-light mb-0">
-                        Director, Acquisition Marketing
-                    </p>
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Director, Acquisition Marketing</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  Ryan partnered with us to bolster our marketing team through a significant transition to direct to consumer E-Commerce sales. The team helped us find exactly the match we needed to set us up for success. Their ability to understand our challenges and unique needs produced critical time savings and made the process easy.
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/trevor-forssell.jpg" alt="Trevor Forssell">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">Trevor Forssell</h2>
+                    <p class="small mb-0">Director of Marketing, Mighty Bright</p>
                   </div>
                 </div>
-              </div>
-            </a>
+            </div>
           </div>
           <!-- End Item -->
 
           <!-- Item -->
-          <div class="cbp-item rounded graphic">
-            <a class="cbp-caption" href="#">
-              <div class="cbp-caption-defaultWrap">
-                <img src="./assets/svg/clients-logo/ntent.png" alt="NTENT">
-              </div>
-              <div class="cbp-caption-activeWrap bg-primary">
-                <div class="cbp-l-caption-alignCenter">
-                  <div class="cbp-l-caption-body">
-                    <h4 class="h6 text-white mb-0">NTENT</h4>
-                    <p class="small u-text-light mb-0">
-                        Chief Revenue Officer / Head of Business Development / VP of Mobile Sales / Senior Account Executive (2) / Head of HR
-                    </p>
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/hollywood.png" alt="Hollywood.com">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">VP Sales</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  As an organization going through lots of changes, we needed a very transformational hire to lead our sales team and penetrate new verticals. Ryan presented a slate of promising candidates with the required industry expertise we wanted to see as well as the kind of leadership ability and dynamic personality we wanted to add to our organization. We received all deliverables on time, if not ahead of schedule, and they were a partner from start to finish. Ryan came to the table not just with great talent, but with consultative input based on their industry experience which really helped us strategically.
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/andy-hunter.jpg" alt="Andy Hunter">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">Andy Hunter</h2>
+                    <p class="small mb-0">Chief Revenue Officer, Hollywood.com</p>
                   </div>
                 </div>
-              </div>
-            </a>
+            </div>
           </div>
           <!-- End Item -->
+
+          <!-- Item -->
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/ntent.png" alt="Ladders">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Chief Revenue Officer</span>
+                    <span class="badge badge-secondary">Head of Business Development</span>
+                    <span class="badge badge-secondary">VP of Mobile Sales</span>
+                    <span class="badge badge-secondary">Senior Account Executive</span>
+                    <span class="badge badge-secondary">Head of HR</span>
+                  </small>
+                </div>
+                <p class="small mt-1 mb-0">
+                  We came to Brogan with several key searches including a Chief Revenue Officer and SVP of Mobile Sales in our org that required a very specific skillset. They delivered an ace in the hole on their first submission and he has turned out to be a rock star.  We have worked with literally dozens of recruiters and know that when we need to bring in the heavy artillery, Brogan is the headhunter we will call.
+                </p>
+                <hr/>
+                <div class="media align-items-center">
+                  <div class="col-md-4">
+                    <img class="img-fluid u-sm-avatar rounded-circle" src="./assets/img/people/colin-jeavons.jpg" alt="Colin Jeavons">
+                  </div>
+                  <div class="media-body">
+                    <h2 class="h6 mb-0">Colin Jeavons</h2>
+                    <p class="small mb-0">Chief Revenue Officer, NTENT</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/boxed-original.png" alt="Boxed">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Head of HR</span>
+                  </small>
+                </div>
+            </div>
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/shazam.png" alt="Shazam">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Director, Creative Technology</span>
+                  </small>
+                </div>
+            </div>
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/pledge-music.png" alt="Pledge Music">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">VP Product</span>
+                  </small>
+                </div>
+            </div>
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/thrive-global.jpg" alt="Thrive Global">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Predator Team (Producer, Photographer, Editorial)</span>
+                  </small>
+                </div>
+            </div>
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/canvs.png" alt="canvs">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Head of HR</span>
+                  </small>
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Senior Account Executive</span>
+                  </small>
+                </div>
+            </div>
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/prodigynetwork.png" alt="Prodigy Network">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Head of Mobile Engineering</span>
+                  </small>
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">SVP Service Delivery</span>
+                  </small>
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Account Executive</span>
+                  </small>
+                </div>
+            </div>
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/medidata.png" alt="Medidata">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">VP Finance</span>
+                  </small>
+                </div>
+            </div>
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="cbp-item card border-0 rounded shadow-sm mb-3">
+            <div class="cbp-caption card-body d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                <img src="./assets/svg/clients-logo/alloy-media-marketing.jpg" alt="Alloy">
+                <div class="media-body">
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Sr. Director of Sales</span>
+                  </small>
+                  <small class="text-muted">
+                    <span class="badge badge-secondary">Senior Account Executive</span>
+                  </small>
+                </div>
+            </div>
+          </div>
+          <!-- End Item -->
+
+          
   
         </div>
         <!-- End Content -->
@@ -1073,16 +737,36 @@
     </div>
     <!-- End Portfolio Section -->
 
+    <div style="background: linear-gradient(150deg, #F1156F 0%, #F84A99 100%)">
+    <a id="process"></a>
+      <div class="container u-space-3 position-relative z-index-2">
+        <!-- Title -->
+        <div class="text-center mx-auto">
+          <span class="u-icon u-icon--xl rounded-circle mb-4" style="background: #FEED3D">
+            <span class="fas fa-user u-icon__inner font-size-32" style="color: #22AADC"></span>
+          </span>
+          <h2 class="h1 text-white">Hiring is the <span class="font-weight-bold">most critical</span> thing you’ll do as a company.</h2>
+          <p class="lead u-text-light mb-0">Get it right the first time.</p>
+        </div>
+        <!-- End Title -->
+      </div>
+    </div>
+
     <!-- FAQ -->
-    <div class="container u-space-1">
+    <div class="container u-space-2">
       <!-- Title -->
       <div class="w-md-80 w-lg-50 text-center mx-auto mb-9">
-        <h2 class="font-weight-medium">Frequently Asked Questions</h2>
+        <h2 class="font-weight-medium">Before you go any further</h2>
+        <p>Decide how you'd like to work with us</p>
       </div>
       <!-- End Title -->
 
       <div class="row justify-content-lg-between align-items-center">
-        <div class="col-lg-8 offset-lg-2 mb-7">
+        <div class="col-md-6 mb-5">
+          <img class="col-md-12" src="./assets/svg/good-fast-cheap.svg"/>
+        </div>
+        <div class="col-md-6 mb-7">
+        
           <div class="pr-md-4">
             <!-- Accordion -->
             <div id="faqsAccordion">
@@ -1090,12 +774,12 @@
               <div class="card mb-3">
                 <div class="card-header u-card-header" id="faqsHeadingOne">
                   <h5 class="mb-0">
-                    <button class="btn btn-link btn-block d-flex justify-content-between u-card-btn collapsed p-3"
+                    <button class="btn btn-link btn-block d-flex justify-content-between u-card-btn p-3"
                             data-toggle="collapse"
                             data-target="#faqsCollapseOne"
-                            aria-expanded="false"
+                            aria-expanded="true"
                             aria-controls="faqsCollapseOne">
-                      What do you charge?
+                      Search Practice Areas &amp; Fee Structures
 
                       <span class="u-card-btn__arrow">
                         <span class="fa fa-arrow-down small"></span>
@@ -1103,11 +787,15 @@
                     </button>
                   </h5>
                 </div>
-                <div id="faqsCollapseOne" class="collapse"
+                <div id="faqsCollapseOne" class="expand"
                      aria-labelledby="faqsHeadingOne"
                      data-parent="#faqsAccordion">
                   <div class="card-body u-card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <p><strong>Retained Executive Search</strong> – Billed on a negotiated percentage of the placed candidates first year compensation paid in installments or a flat fee, our research and confidential network driven retained practice focuses exclusively on leadership positions (VP and C Suite, Board members, Advisors).  We offer a free replacement guarantee, and conduct your search in a consultative and diligent immersive practice with weekly touchpoints and detailed reporting.</p>
+
+                    <p><strong>Contingent Search</strong> – On an exclusive basis at a negotiated of placed candidates first year compensation and non-exclusive at a time of your choosing, we will secure your next great mid-senior level hire or hourly consultant.</p> 
+
+                    <p><strong>Container</strong> – Multiple searches concurrently to build out a team at one flat monthly fee inquire</p>
                   </div>
                 </div>
               </div>
@@ -1122,7 +810,7 @@
                             data-target="#faqsCollapseTwo"
                             aria-expanded="false"
                             aria-controls="faqsCollapseTwo">
-                      What are your areas of expertise?
+                      Diversity and Reach
 
                       <span class="u-card-btn__arrow">
                         <span class="fa fa-arrow-down small"></span>
@@ -1134,7 +822,16 @@
                      aria-labelledby="faqsHeadingTwo"
                      data-parent="#faqsAccordion">
                   <div class="card-body u-card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <p><strong>Diversity</strong> - We always present a diverse slate of candidates on a number of levels and place the utmost importance on culture fit and emotional IQ</p>
+
+                    <p><strong>Startup, Scale &amp; Exit Minded Search Experience</strong> - We’ve invested in and hired key talent for dozens of measurably best of breed companies and are constantly striving to work with cutting edge companies.</p>
+
+                    <p><strong>Highly Vetted Referrals</strong> - We back-channel our candidates and our clients to ensure the story measures up</p>
+
+                    <p><strong>Confidential Candidates</strong> - our network isn’t comprised of people looking for “jobs”.  They are busy building winning brands and will only consider the best opportunities on the market. Our clients are ONLY the leaders or the biggest up and coming disruptors in their industries.</p>
+
+                    <p><strong>Transformational Hires</strong> - We’ve been through more re-orgs and pivots than we care to mention and love to partner with an organization ready for a successful turnaround.</p>
+
                   </div>
                 </div>
               </div>
@@ -1149,7 +846,7 @@
                             data-target="#faqsCollapseThree"
                             aria-expanded="false"
                             aria-controls="faqsCollapseThree">
-                      How does the retainer work?
+                      Professional Services
 
                       <span class="u-card-btn__arrow">
                         <span class="fa fa-arrow-down small"></span>
@@ -1161,61 +858,12 @@
                      aria-labelledby="faqsHeadingThree"
                      data-parent="#faqsAccordion">
                   <div class="card-body u-card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-              <!-- End Card -->
+                    <p><strong>Resume &amp; LinkedIn Profile Rewrite</strong> – Stop applying for a job and create an opportunity with a best of breed resume and compelling LinkedIN profile that will attract Executive Recruiters and hiring managers and have your inbox on fire with continued interest and frequent opportunities.</p>
 
-              <!-- Card -->
-              <div class="card mb-3">
-                <div class="card-header u-card-header" id="faqsHeadingFour">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link btn-block d-flex justify-content-between u-card-btn collapsed p-3"
-                            data-toggle="collapse"
-                            data-target="#faqsCollapseFour"
-                            aria-expanded="false"
-                            aria-controls="faqsCollapseFour">
-                      What happens if you don’t fill the job?
+                    <p><strong>Executive Coaching</strong> – Feeling stuck in your current role, unsure how to get your great idea off the ground?  Struggling with your pitch deck, getting funding, or just feeling the pressure of entrepreneurship or work/life balance?  Let’s right the ship and develop tools to lead a balanced, purpose driven, and profitable professional life.</p>
 
-                      <span class="u-card-btn__arrow">
-                        <span class="fa fa-arrow-down small"></span>
-                      </span>
-                    </button>
-                  </h5>
-                </div>
-                <div id="faqsCollapseFour" class="collapse"
-                     aria-labelledby="faqsHeadingFour"
-                     data-parent="#faqsAccordion">
-                  <div class="card-body u-card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-              <!-- End Card -->
+                    <p><strong>Recruiting Process</strong> – Build a best in class internal recruiting function with onsite boot camps and training sessions on designing recruiting systems and processes that work, position descriptions that attract talent, and retention programs that scale. Hire and/or train your recruiting team on best practices for internal recruiting and selection and management of vendors.</p>
 
-              <!-- Card -->
-              <div class="card mb-3">
-                <div class="card-header u-card-header" id="faqsHeadingFive">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link btn-block d-flex justify-content-between u-card-btn collapsed p-3"
-                            data-toggle="collapse"
-                            data-target="#faqsCollapseFive"
-                            aria-expanded="false"
-                            aria-controls="faqsCollapseFive">
-                      Why Brogan over larger firms?
-
-                      <span class="u-card-btn__arrow">
-                        <span class="fa fa-arrow-down small"></span>
-                      </span>
-                    </button>
-                  </h5>
-                </div>
-                <div id="faqsCollapseFive" class="collapse"
-                     aria-labelledby="faqsHeadingFive"
-                     data-parent="#faqsAccordion">
-                  <div class="card-body u-card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
                 </div>
               </div>
